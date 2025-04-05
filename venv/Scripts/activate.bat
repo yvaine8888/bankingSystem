@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\jonat\Documents\GitHub\c2c_smart_age\venv
+set VIRTUAL_ENV=C:\Users\tclie\Documents\GitHub\bankingSystem\venv
 
 if not defined PROMPT set PROMPT=$P$G
 
