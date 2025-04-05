@@ -3,19 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Bank</title>
-    <!--<link rel="stylesheet" href="/static/style.css">-->
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
-    <h1>Bank</h1>
-    <h2>Hello! Welcome to this banking system!</h2>
+    <h1 id="maintitle">Bank</h1>
+    <h2>Hello! Welcome to this online banking system!</h2>
     <p>Please log in.</p>
     
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username"><br><br>
-    <label for="pwd">Password:</label>
-    <input type="text" id="pwd" name="pwd"><br><br>
+    <label for="accnum">Account Number:</label>
+    <input type="text" id="accnum" name="accnum"><br><br>
+
+    <label for="pwd">PIN:</label>
+    <input type="text" id="pin" name="pin"><br><br>
+
     <button type="button" id="login">Log in</button><br><br>
+    <span> Don't have an account?</span>
     <button type="button" id="signup">Sign up</button>
 </body>
 </html>
