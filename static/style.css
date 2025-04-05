@@ -1,3 +1,13 @@
 #maintitle {
     text-align: center;
 }
+#signup, #back {
+    background-color: transparent;
+    border: none;
+    color:blue
+}
+#signup:hover {
+    text-decoration-line: underline;
+}
+
+
