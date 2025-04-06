@@ -4,10 +4,14 @@
 #signup, #back {
     background-color: transparent;
     border: none;
-    color:blue
+    color:blue;
 }
 #signup:hover {
     text-decoration-line: underline;
+}
+
+#back {
+    color:red;
 }
 
 

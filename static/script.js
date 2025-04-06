@@ -1,7 +1,13 @@
 document.getElementById("#signup").addEventListener("click", function() { 
-    fetch('/create_account');
-    /**
-    .then(response => response.json())
-    .then(data => {
-    console.log(data.result)*/
+    show('createPage', 'loginPage');
 });
+
+document.getElementById("#back").addEventListener("click", function() { 
+    show('loginPage', 'createPage');
+});
+
+function show(show, hide) {
+    document.getElementById(show).style.display='block';
+    document.getElementById(hide).style.display='none';
+    return false;
+}

@@ -7,9 +7,5 @@ app = Flask(__name__)
 def home():
     return render_template('index.html')
 
-@app.route('/create_account', methods=['GET'])
-def signUp():
-    return render_template('signup.html')
-
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
