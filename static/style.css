@@ -1,17 +1,65 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color:white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    overflow: hidden;
+    background-color: black;
+    padding: 20px 10px;
+}
+
+.header span{
+    float: left;
+    color: rgb(190, 190, 190);
+    text-align: center;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.home {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header span:hover {
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
 #loginPage, #createPage{
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+#loginPage div{
     text-align: center;
 }
-#signup, #back {
+
+form {
+    padding-left: 20%;
+}
+
+#signUpButton, #backButton {
     background-color: transparent;
     border: none;
     color:blue;
 }
-#signup:hover {
+
+#signUpButton:hover, #backButton:hover {
     text-decoration-line: underline;
 }
 
-#back {
+#backButton {
     color:red;
 }
-
-
