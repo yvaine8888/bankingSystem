@@ -7,12 +7,10 @@ function goFirstPage() {
 
 function login(details) {
     var x = details
-    alert("Logged in");
 }
 
 function create(details) {
     var x = details
-    alert("Created an account");
 }
 
 function show(showing, hide) {
@@ -21,13 +19,11 @@ function show(showing, hide) {
 }
 
 function goSignUp(){
-    alert("Going to sign up");
     show('createPage', currentPage);
     currentPage = "createPage";
 };
 
 function goLogin(){
     show('loginPage', currentPage);
-    alert("Going to log in");
     currentPage = "loginPage";
 };
